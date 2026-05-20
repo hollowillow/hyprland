@@ -6,6 +6,5 @@ workspaces = {
 }
 
 browser = 'firefox'
-browser = 'firefox'
 mainMod = 'ALT'
 scriptMod = 'SUPER'
