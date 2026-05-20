@@ -13,6 +13,7 @@ hl.on("hyprland.start",
         hl.exec_cmd("waybar")
         hl.exec_cmd("hyprsunset")
         hl.exec_cmd("hypridle")
+        hl.exec_cmd("awww-daemon")
     end
 )
 
