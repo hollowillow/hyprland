@@ -1,10 +1,10 @@
 -- IMPORT MODULES
 require('modules.variables')
 require('modules.config')
-require('modules.keybinds')
 require('modules.workspaces')
 require('modules.windows')
 require('modules.animations')
+require('modules.keybinds')
 
 -- AUTOSTART --
 hl.on("hyprland.start", 

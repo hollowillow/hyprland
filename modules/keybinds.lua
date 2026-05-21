@@ -95,7 +95,7 @@ hl.bind(mainMod .. " + CONTROL + k",
 
 -- special workspace
 hl.bind(mainMod .. " + G",
-    hl.dsp.workspace.toggle_special(scratchpad),
+    hl.dsp.workspace.toggle_special("scratchpad"),
     { description = "Focus scratchpad" }
 )
 hl.bind(mainMod .. " + SHIFT + G",
