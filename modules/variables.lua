@@ -5,6 +5,6 @@ workspaces = {
     { key = 'f', name = 'games' },
 }
 
-browser = 'firefox'
+browser = 'librewolf'
 mainMod = 'ALT'
 scriptMod = 'SUPER'

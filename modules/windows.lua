@@ -13,7 +13,7 @@ hl.window_rule({
 hl.window_rule({
     match = { class = '^(steam)$' },
     workspace = 'name:games',
-    fullscreen = true,
+    -- fullscreen = true,
 })
 hl.window_rule({
     match = { class = '.*RetroArch.*' },
