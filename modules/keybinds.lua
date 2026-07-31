@@ -5,6 +5,7 @@ require('modules.submaps.masterLayout')
 require('modules.submaps.passthrough')
 require('modules.submaps.print')
 require('modules.submaps.media')
+require('modules.submaps.bookmark')
 
 -- GENERAL ---
 hl.bind(mainMod .. " + SPACE",
