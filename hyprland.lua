@@ -14,6 +14,7 @@ hl.on("hyprland.start",
         hl.exec_cmd("hyprsunset")
         hl.exec_cmd("hypridle")
         hl.exec_cmd("awww-daemon")
+        hl.exec_cmd("$TERMINAL -e tmux-new-session -A -s init")
     end
 )
 
