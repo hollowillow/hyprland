@@ -9,11 +9,11 @@ require('modules.submaps.bookmark')
 
 -- GENERAL ---
 hl.bind(mainMod .. " + SPACE",
-    hl.dsp.exec_cmd("float-term fzmenu"),
+    hl.dsp.exec_cmd("rofi -show drun || pkill rofi"),
     { description = "Open program launcher" }
 )
 hl.bind(mainMod .. " + ESCAPE",
-    hl.dsp.exec_cmd("float-term power"),
+    hl.dsp.exec_cmd("power || pkill rofi"),
     { description = "Open power menu" }
 )
 
@@ -110,7 +110,7 @@ hl.bind(scriptMod .. " + w",
     { description = "Change to a random wallpaper" }
 )
 hl.bind(scriptMod .. " + SHIFT + w",
-    hl.dsp.exec_cmd("term-menu wp select"),
+    hl.dsp.exec_cmd("wp select || pkill rofi"),
     { description = "Select wallpaper" }
 )
 
