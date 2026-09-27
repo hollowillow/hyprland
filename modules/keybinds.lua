@@ -122,3 +122,13 @@ hl.bind(scriptMod .. " + SHIFT + w",
 --- MOUSE ---
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = false })    -- ALT + LMB: Move a window
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })  -- ALT + RMB: Resize a window
+
+--- GLOBAL ---
+hl.bind(scriptMod .. " + m",
+    hl.dsp.send_shortcut({
+        mods = "CONTROL + SHIFT",
+        key = "m",
+        window = "class:^(discord|discord-canary)$"
+    }),
+    {description = "Mute on discord", submap_universal = true}
+)
