@@ -17,6 +17,11 @@ hl.bind(mainMod .. " + ESCAPE",
     { description = "Open power menu" }
 )
 
+hl.bind(scriptMod .. " + SPACE",
+    hl.dsp.exec_cmd("hyprctl switchxkblayout current next & notify-send 'Keyboard layout switched'"),
+    { description = "Switch keyboard layout" }
+)
+
 hl.bind(mainMod .. " + W",
     hl.dsp.exec_cmd("toggle-waybar"),
     { description = "Toggle waybar" }
