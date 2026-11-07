@@ -1,8 +1,8 @@
 -- https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     input = {
-        kb_layout = "us,us",
-        kb_variant = ",workman-p",
+        kb_layout = "us,us,cz",
+        kb_variant = ",workman,",
         kb_options = "caps:backspace, shift:both_capslock_cancel",
 
         follow_mouse = 2,
@@ -26,9 +26,6 @@ hl.config({
         mfact = 0.618,
         orientation = "left",
         new_status = "slave",
-    },
-    dwindle = {
-        special_scale_factor = 0.8,
     },
     decoration = {
         shadow = {
