@@ -18,8 +18,13 @@ hl.bind(mainMod .. " + ESCAPE",
 )
 
 hl.bind(scriptMod .. " + SPACE",
-    hl.dsp.exec_cmd("hyprctl switchxkblayout current next & notify-send 'Keyboard layout switched'"),
+    hl.dsp.exec_cmd("kb-layout || pkill rofi"),
     { description = "Switch keyboard layout" }
+)
+
+hl.bind(mainMod .. " + O",
+    hl.dsp.exec_cmd("sc || pkill rofi"),
+    { description = "Search the internet" }
 )
 
 hl.bind(mainMod .. " + W",

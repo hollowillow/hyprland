@@ -12,7 +12,7 @@ hl.bind("XF86AudioNext",
     { description = "Media playback next" }
 )
 hl.bind("XF86AudioPlay",
-    hl.dsp.exec_cmd("playerctl --player=mpv,%any playpause"),
+    hl.dsp.exec_cmd("playerctl --player=mpv,%any play-pause"),
     { description = "Media playback toggle pause" }
 )
 hl.bind("XF86AudioPrev",
